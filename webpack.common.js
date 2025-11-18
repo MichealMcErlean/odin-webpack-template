@@ -13,11 +13,6 @@ module.exports = {
       template: "./src/template.html",
     }),
   ],
-  "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
-  },
   module: {
     rules: [
       {
